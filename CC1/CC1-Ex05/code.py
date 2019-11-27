@@ -1,9 +1,10 @@
-lions = 2
-tigers = 3
-bears = 2
-penguins = 3
-otters = 5
-# Add the buffalo here
-
-zoo_animals = lions + tigers + bears + penguins + otters  # Update buffalo here
-print(zoo_animals)
+from random import choice
+food = choice(['banana', 'chicken', 'corn', 'baseball'])
+if food == 'banana' :
+    print('Fruit')
+elif food == 'chicken' :
+    print('Meat')
+elif food == 'corn' :
+    print('Vegetable')
+else :
+    print('Could not verify food')

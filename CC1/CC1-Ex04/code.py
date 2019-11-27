@@ -1,6 +1,15 @@
 # DO NOT TOUCH ============================================
-cash = 72389221.45
+from random import randint
+pizzas = [
+   'Pizza - Pepperoni',
+   'Pizza - Cheese',
+   'Pizza - Sausage',
+   'Pizza - Supreme',
+   'Pizza - Veggie'
+   ]
+selected_pizza = pizzas[randint(0, 5)]
 # DO NOT TOUCH ============================================
 
-#Write your code below:
+pizza_type = selected_pizza([0, 5])  # fill in blank 
 
+print(pizza_type)
